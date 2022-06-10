@@ -1,10 +1,3 @@
-if(!unsafeWindow.settings){
-    unsafeWindow.settings = {
-        autoBuild:true
-    };
+external function test(){
+    console.log("Hallo");   
 }
-var autoTrimpSD = (function() {
-
-    // Your code here...
-console.log("Hallo");
-})();
