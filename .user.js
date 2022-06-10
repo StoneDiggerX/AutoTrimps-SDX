@@ -30,7 +30,9 @@
     };
 
     // load modules
-    modules.map(modules => modulesPath + modules).forEach(loadExternalScript);
+    for(var element in modules){
+        loadExternalScript(modulesPath + modules[element]);
+    }
     // load main as last module!
     loadExternalScript(mainPath + "main.js");
 })();

@@ -1,6 +1,6 @@
 
 console.log("main is loaded");
-/*this.mainloop = function() {
+this.mainloop = function() {
     //console.clear();
     //console.log(">>> start check of resources");
     var game = unsafeWindow.game;
@@ -14,4 +14,3 @@ console.log("main is loaded");
 };
 
 this.mainloop();
-*/
