@@ -1,4 +1,4 @@
-console.log("start load main module");
+console.log("start load main module...");
 
 this.mainloop = function() {
     //console.clear();
