@@ -1,5 +1,4 @@
-
-console.log("main is loaded");
+console.log("main module is loaded");
 this.mainloop = function() {
     //console.clear();
     //console.log(">>> start check of resources");
