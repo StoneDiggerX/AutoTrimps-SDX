@@ -1,5 +1,5 @@
 console.log("start load main module...");
-
+/*
 this.mainloop = function() {
     //console.clear();
     //console.log(">>> start check of resources");
@@ -12,8 +12,8 @@ this.mainloop = function() {
 
     setTimeout(this.mainloop.bind(this), 1000);
 };
-
+*/
 console.log("execute main module");
 
-this.mainloop();
+//this.mainloop();
 
