@@ -1,4 +1,4 @@
-var ATversion = 'SD v0.0.1',
+/*var ATversion = 'SD v0.0.1',
     atscript = document.getElementById('AutoTrimps-script'),
     basepath = 'https://github.com/StoneDiggerX/AutoTrimps-StoneDigger', //Link to your own Github here if you forked!
     modulepath = 'modules/';
@@ -28,7 +28,7 @@ function initializeAutoTrimps() {
     }
     console.log('AutoTrimps-StoneDigger Loaded!');
 }
-
+*/
 
 //------------------------------------------------------------------------------------
 // original script
