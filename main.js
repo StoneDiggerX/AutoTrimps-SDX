@@ -2,7 +2,7 @@ console.log("start load main module");
 
 this.mainloop = function() {
     console.log(">>> run main task");
-    var game = unsafeWindow.game;
+    //var game = unsafeWindow.game;
 
     //manageUpgrades(game);
     //manageJobs(game, CFG);
