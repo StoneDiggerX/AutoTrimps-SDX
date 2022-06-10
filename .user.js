@@ -15,7 +15,8 @@
 var script = document.createElement('script');
 script.id = 'AutoTrimps-Zek';
 //This can be edited to point to your own Github Repository URL.
-script.src = 'https://github.com/StoneDiggerX/AutoTrimps-StoneDigger/blob/main/AutoTrimpsSD.js';
+//script.src = 'https://github.com/StoneDiggerX/AutoTrimps-StoneDigger/blob/main/AutoTrimpsSD.js';
+script.src = 'https://raw.githubusercontent.com/StoneDiggerX/AutoTrimps-StoneDigger/main/AutoTrimpsSD.js?token=GHSAT0AAAAAABVPLSQ56Y3MSDQZS66TZAMQYVDD4MA'
 //script.setAttribute('crossorigin',"use-credentials");
 script.setAttribute('crossorigin',"anonymous");
 document.head.appendChild(script);
