@@ -1,9 +1,11 @@
+console.log("start load module");
+/*
 // Your code here...
 var CFG = [];
 CFG["manageStorages"] = {};
-CFG["manageStorages"].barnThreshold = 0.9; /*percentage at which minimum*/
-CFG["manageStorages"].shedThreshold = 0.9; /*to buy storage*/
-CFG["manageStorages"].forgeThreshold = 0.9; /*from 0 (min) to 1 (max)*/
+CFG["manageStorages"].barnThreshold = 0.9; //percentage at which minimum
+CFG["manageStorages"].shedThreshold = 0.9; //to buy storage
+CFG["manageStorages"].forgeThreshold = 0.9; //from 0 (min) to 1 (max)
 
 CFG["manageHousings"] = {};
 CFG["manageHousings"].Hut = {};
@@ -264,3 +266,4 @@ function manageJobs(game, CFG){
         }
     }
 }
+*/
