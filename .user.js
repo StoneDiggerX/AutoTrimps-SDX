@@ -13,7 +13,7 @@
 (function() {
     var mainPath = "https://raw.githubusercontent.com/StoneDiggerX/AutoTrimps-StoneDigger/main/";
     var modulesPath = mainPath + "modules/";
-    var modules = ["module.js", "main.js"];
+    var modules = ["module.js"];
 
     var loadExternalScript = function(url){
         GM_xmlhttpRequest({
@@ -30,7 +30,7 @@
     };
 
     // load modules
-    scripts.map(script => modulesPath + modules).forEach(loadExternalScript);
+    modules.map(modules => modulesPath + modules).forEach(loadExternalScript);
     // load main as last module!
     loadExternalScript(mainPath + "main.js");
-})();   
+})();
