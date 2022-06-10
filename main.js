@@ -3,7 +3,7 @@ console.log("start load main module...");
 this.mainloop = function() {
     //console.clear();
     //console.log(">>> start check of resources");
-    var game = unsafeWindow.game;
+    //var game = unsafeWindow.game;
 
     //manageUpgrades(game);
     //manageJobs(game, CFG);
