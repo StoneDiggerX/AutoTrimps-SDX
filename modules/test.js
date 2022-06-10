@@ -1,3 +1,3 @@
-external function test(){
+function test(){
     console.log("Hallo");   
 }
